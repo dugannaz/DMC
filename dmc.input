@@ -1,0 +1,35 @@
+spaceDimension				3		
+nNucleus				1
+nElectron				2
+nWalker					1000
+seed					0
+dt				    	0.003
+thermalTimeSteps			10000
+timeSteps				50000
+alpha					0.02
+outputStep				100
+nBin					50
+min					-4.0
+max 					4.0	
+ImportanceSampling			1
+Antisymmetry				1
+
+====================================================
+Parameters for DMC :
+
+1 - spaceDimension	 : number of spatial dimension
+2 - nNucleus   		 : number of nuclei
+3 - nElectron   	 : number of electrons
+4 - nWalker     	 : number of walkers 46656
+5 - seed          	 : rng seed (0 : clock seed)
+6 - dt                   : time step
+7 - thermalTimeSteps	 : number of time steps in thermalization
+8 - timeSteps  		 : number of time steps in data collection
+9 - alpha 	      	 : used in reference energy adjustment)
+10 - outputStep  	 : number of time steps at which output is written
+11 - nBin	         : number of bins in the walker histogram
+12 - min	 	 : coordinate minimum for wavefunction
+13 - max		 : coordinate maximum for wavefunction
+14 - ImportanceSampling  : 
+15 - Antisymmetry	 : Antisymmetry condition (not effective if IS=1)
+====================================================

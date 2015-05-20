@@ -1,0 +1,22 @@
+Diffusion Monte Carlo results
+
+Parameters
+spaceDimension		3
+nNucleus		1
+nElectron		2
+nWalker		1000
+seed		0
+dt		0.003
+thermalTimeSteps		3000
+timeSteps		5000
+alpha		0.002
+outputStep		25
+nBin		50
+bornOppenheimer		1
+
+Nuclear position averages
+Posiotion 0 of nucleus 0 = 0
+Posiotion 1 of nucleus 0 = 0
+Posiotion 2 of nucleus 0 = 0
+
+Nuclear separations
