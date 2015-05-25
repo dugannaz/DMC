@@ -1,4 +1,4 @@
--- Diffusion Monte Carlo --
+## Diffusion Monte Carlo 
 
 Parameters are read from "dmc.input" file.
 

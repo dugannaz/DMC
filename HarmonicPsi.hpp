@@ -1,6 +1,6 @@
 #include "Psi.hpp"
 #include "Walker.hpp"
-#include "newmat.h"
+#include "/home/nazim/program/newmat10/newmat.h"
 
 class HarmonicPsi : public Psi {
 	public:
